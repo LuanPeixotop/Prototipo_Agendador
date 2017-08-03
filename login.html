@@ -2,6 +2,8 @@
 <html>
     <head>
         <!-- Compiled and minified CSS -->
+        <meta charset="utf-8"/>
+        <title>Sistema de Agendamento de Prova</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="_css/style.css">
@@ -15,36 +17,36 @@
             </div>
           </nav>
         </div>
-        <div class="card-panel #eeeeee grey lighten-4" id="card-class">
-            <div class="container center-align">
-                <div class="col s12 m6">
-                    <div class="card-panel #eeeeee grey lighten-3">
-                        <div class="row">
-                            <h2>Login de Estudantes</h2>
-                            <div class="input-field col s11 m11">
-                                <i class="material-icons prefix">account_circle</i>
-                                <input id="icon_prefix" type="text" class="validate">
-                                <label for="text" data-error="wrong" data-success="right">Matrícula: </label>
-                            </div>
-                        </div>
-        
-                    <div class="row">
-                        <div class="input-field col s11 m11">
-                            <i class="material-icons prefix">edit</i>
-                            <input id="icon_prefix" type="password" class="validate">
-                            <label for="password" data-error="wrong" data-success="right">Senha de Acesso: </label>
-                        </div>
-                    </div> 
-                    
-                    <div class="row">
-                        <div class="input-field col s12 m12">
-                            <a class="waves-effect waves-light btn" href="index.html">Entrar</a>
-                        </div>
+            <div class="container">
+            <form id="formulario">
+                <div class="row">
+                    <p class="center-align" style="font-size: 25px; margin-top:100px;">Login de Estudantes</p>
+                </div>
+                        
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="text" data-error="wrong" data-success="right">Matrícula: </label>
                     </div>
-                  </div>
-             </div>
-           </div>
-        </div>
+                </div>
+        
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                        <i class="material-icons prefix">edit</i>
+                        <input id="icon_prefix" type="password" class="validate">
+                        <label for="password" data-error="wrong" data-success="right">Senha de Acesso: </label>
+                    </div>
+                </div> 
+                    
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                      <a class="waves-effect waves-light btn" href="index.html">Entrar</a>
+                    </div>
+                </div>
+            </form>
+            </div>
+        
         <!-- Compiled and minified JavaScript -->
         <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>  
