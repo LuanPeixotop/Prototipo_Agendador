@@ -1,0 +1,21 @@
+.center-align {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    margin-top: -50px;
+}
+#card-class{
+    position: absolute;
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+h2{
+    display: inline-block;
+    font-size: 21pt;
+}
